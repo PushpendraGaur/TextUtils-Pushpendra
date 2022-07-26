@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template is working</title>
+</head>
+<body>
+    <h1>Welcome to the Taxt Analyzer. Enter your text below</h1>
+    <form action='/analyze' method='get'>
+        <textarea name="text" id="" cols='30' rows='10' style='width: 718px; height: 161px;'></textarea>
+        <br>
+        <input type="checkbox" name="removepunc" id="">Remove Punctuation <br>
+        <input type="checkbox" name="upper" id="">UPPERCASE THE TEXT <br>
+        <input type="checkbox" name="newlineremove" id="">New line remover <br>
+        <input type="checkbox" name="extraspaceremove" id="">Extra Space Remover <br>
+        <input type="checkbox" name="charcount" id="">Total Character <br>
+        <button type='submit'>Analyze Text</button>
+    </form>
+</body>
+</html>
